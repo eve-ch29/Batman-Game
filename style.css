@@ -1,0 +1,104 @@
+#game {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url("img/back3.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+#player {
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+
+  width: 60px;
+  height: 80px;
+
+  background: url("img/batou.png");
+
+  background-size: contain;
+
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+
+.eagle {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;  
+
+  width: 100px;
+  height: 30px;
+
+  background: url("img/missilejoker.png");
+  background-size: cover;
+}
+
+.enemies2 {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;  
+
+  width: 100px;
+  height: 30px;
+
+  background: url("img/missile2.png");
+  background-size: cover;
+}
+
+.GameOver{
+  position: fixed;
+  display: none;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-family: 'Passion One', cursive;
+  border-style: double;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.541);
+  width: 200px;
+  bottom: 200px;
+  right: 500px;
+  text-align: center;
+}
+#btnstart{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border: 2px rgb(255, 255, 255);
+  font-family: 'Passion One', cursive;
+  width: 300px;
+  height: 70px;
+  font-size: 50px;
+  bottom: 200px;
+  right: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ecran-principale {
+  border: 2px rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.479);
+  font-family: 'Passion One', cursive;
+  width: 300px;
+  height: 70px;
+  font-size: 50px;
+  bottom: 200px;
+  right: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
