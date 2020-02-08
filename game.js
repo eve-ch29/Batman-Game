@@ -30,7 +30,7 @@ let fallSpeed = 2;
 let timeToFallAfterJump = 400;
 
 // delay between two enemies motion (in milliseconds)
-let motionDelay = 8;
+let motionDelay = 11;
 // motion distance at each step (in pixels)
 let motionStep = 5;
 
@@ -48,7 +48,7 @@ enemies.style.display = "none";
    btnstart();
    enemies.style.display = "block";
    spawnEnemy();
-   var intervalID = window.setInterval(spawnEnemy, 500);
+   var intervalID = window.setInterval(spawnEnemy, 1000);
 
    music.play();
 
@@ -157,7 +157,7 @@ function spawnEnemy(){
 
   let newObstacle2 = document.createElement("div");
   newObstacle2.classList.add("enemies2");
-  newObstacle2.style.bottom = getRandomInt(100,600) + "px";
+  newObstacle2.style.bottom = getRandomInt(100,700) + "px";
   enemies.appendChild(newObstacle2);
 }
 
@@ -184,6 +184,7 @@ function move(div) {
 function stopAll() {
   // hide the player
   player.style.display = "none";
+  enemies.style.display = "none";
 
   // stop the enemies motion
   clearInterval(motion);
