@@ -63,7 +63,7 @@
   position: fixed;
   display: none;
   color: rgb(255, 255, 255);
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Passion One', cursive;
   border-style: double;
   border-radius: 20px;
@@ -87,7 +87,19 @@
   margin-left: auto;
   margin-right: auto;
 }
+#restartBtn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(86, 0, 136);
+  border: 2px rgb(86, 0, 136);
+  font-family: 'Passion One', cursive;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  margin-bottom: auto;
+  bottom: 100px;
 
+
+}
 #ecran-principale {
   border: 2px rgb(255, 255, 255);
   color: rgba(255, 255, 255, 0.479);

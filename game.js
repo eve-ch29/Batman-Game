@@ -52,8 +52,8 @@ enemies.style.display = "none";
 
    music.play();
 
-   //restartBtn = document.getElementsById("restartBtn");
-   //restartBtn.addEventListener("click", gameRestart);
+   restartBtn = document.getElementsById("restartBtn");
+   restartBtn.addEventListener("click", gameRestart);
 
 
  }
@@ -75,11 +75,14 @@ function btnstart(){
   });
 }
 
-//function gameRestart(){
+ function gameRestart(){
+
+  
+ }
   //initialize();
   //btnstart("Play");}
 // player gravity
-// make the player fall
+// make the player fall||
 // change the player bottom margin
 // 'px' is the unit (=pixels)
 // thanks to the CSS 'transition' rule,
